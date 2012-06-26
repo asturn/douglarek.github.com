@@ -26,3 +26,16 @@ My Google Plus [Google +](https://plus.google.com/u/0/104987494041376032503)
 
     echo dHN5ajIwMDdAZ21haWwuY29tCg== | base64 -d
 
+## Why GitHub
+
+这是一个社交时代, 也是一个版本控制的时代；如果你还躲在一个角落里自夸自演, 那么你已然落后于这个时代；
+
+Git以其强大的功能将SVN之流远远的甩在身后,GitHub成为全世界开发人员的乐园；
+
+## Why Jekyll
+
+GitHub的崛起, 俨然超出了版本控制的范畴, 我们竟然可以用它来做个人网站, 社交编程确实蛋疼的可以:)
+
+使用Jekyll, 将一切简洁化
+
+记忆往事, 我用Jekyll
