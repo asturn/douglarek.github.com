@@ -25,38 +25,38 @@ Go编程语言是一个开源项目，其目的是提高开发人员的生产效
     hg clone -u release https://code.google.com/p/go
 
 如果以后Go发布了新的版本，我们只需要更新它：
-
-    cd go/src
-    hg pull
-    hg update release
-
+{% highlight bash %}
+cd go/src
+hg pull
+hg update release
+{% endhighlight %}
 ok，下面编译代码：P
-
-    cd go/src
-    ./all.bash
-
+{% highlight bash %}
+cd go/src
+./all.bash
+{% endhighlight %}
 编译无误，完成之后，将bin路径放入环境变量
-
-    export GOROOT=go_path
-    export PATH=$PATH:$GOROOT/bin
-
+{% highlight bash %}
+export GOROOT=go_path
+export PATH=$PATH:$GOROOT/bin
+{% highlight %}
 如果上面一切妥当，我们不妨写个小的Go程序测试一下，一览Go的魅力：
+{% highlight go %}
+package main
+import "fmt"
 
-    package main
-    import "fmt"
-
-    func main() {
-        fmt.Printf("hello, world\n")
-    }
-
+func main() {
+    fmt.Printf("hello, world\n")
+}
+{% endhighlight %}
 然后，运行：
-
-    go run hello.go
-
+{% highlight bash %}
+go run hello.go
+{% endhighlight %}
 执行这一步很有意思，如果你以前使用过其他的脚本语言（譬如Python），你会发现上面的命令就是一个简单的解释过程，没有生成二进制文件，有解释语言的特性：），一方面，当我们执行一个build操作的时候，则生成二进制文件:
-
-    go build hello.go
-
+{% highlight bash %}
+go build hello.go
+{% endhighlight %}
 然后会在当前的目录下，生成这个对应文件的二进制文件（这里是hello），神奇吧，有编译语言的资质：）
 
 上面的演示只是Go语言的冰山一角，我相信Go会带给我们更多的惊喜，我们只需要探索就OK，先走到这，有时间再完善：）

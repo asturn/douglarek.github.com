@@ -27,7 +27,7 @@ BuildBot使用python编写，使用到了python Twisted网络包，总体来说�
 > 新工作方式的调试工具
 
 最近公司里使用BuildBot自动集成，顺便恶补了一下python，python还算比较有爱的语言. BuildBot官方网站[http://trac.buildbot.net/](http://trac.buildbot.net/)，作为一个开源项目，文档还是挺全面的，但是不够详细，所以研究的时候还是需要hack源码的. BuildBot托管在Github上，使用git作版本控制工具，所以下载地址如下： 		    
-
-    git clone git://github.com/buildbot/buildbot.git
-
+{% highlight bash %}
+git clone git://github.com/buildbot/buildbot.git
+{% endhighlight %}
 由于Buildot大量使用Python Twisted库，所以也可以下载Twisted源码查阅，Twisted官方网站：[http://twistedmatrix.com/trac/](http://twistedmatrix.com/trac/)，源码使用svn作版本控制工具，由于本人对svn不感冒，此处地址从略。天不早了，睡觉，明晚继续！ 

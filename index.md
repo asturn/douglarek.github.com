@@ -39,9 +39,9 @@ GitHub的崛起, 俨然超出了版本控制的范畴, 我们竟然可以用它�
 ## Contact
 
 * Email：
-
-       echo dHN5ajIwMDdAZ21haWwuY29tCg== | base64 -d
-
+    {% highlight bash %}
+    echo dHN5ajIwMDdAZ21haWwuY29tCg== | base64 -d
+    {% endhighlight %}
 * Twitter:
 
     [https://twitter.com/#!/droid4world](https://twitter.com/#!/droid4world)

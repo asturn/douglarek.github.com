@@ -10,16 +10,16 @@ tags : [fedora, android]
 
 从ubuntu下迁移过来，首要的一个问题需要解决，那就是如何解决android编译问题？我们知道android源码的编译，[android官方](http://source.android.com/)推荐64位ubuntu（10.04--11.10)，对于其他linux版本的编译，完全需要自己的琢磨，不得不说android，你大爷的。说归说，骂归骂，还是要靠android吃饭的，所以自己来搞定一切吧（这也是linux geek的一个习惯）：P
 
-闲言少叙，且归正题。既然编译android，那么一些必备的工具是必须的，在这方面，ubuntu当然有官方的详细资料，对于fedora的建议：装系统时，请将编译链（gcc，g++，相关编译库）全部安装，否则出现了问题则得不尝失。
-一般需要的工具： 
-> Python 2.5--2.7
+闲言少叙，且归正题。既然编译android，那么一些必备的工具是必须的，在这方面，ubuntu当然有官方的详细资料，对于fedora的建议：装系统时，请将编译链（gcc，g++，相关编译库）全部安装，否则出现了问题则得不尝失。一般需要的工具：
 
-> Gnu make 3.8.1
+* Python 2.5--2.7
 
-> JDK 1.6（非OpenJdk1.6）
+* Gnu make 3.8.1
 
-> Git 1.7+
-		
+* JDK 1.6（非OpenJdk1.6）
+
+* Git 1.7+
+
 下面就一步一步编译，一步一步的解决问题：
 
     cd src_root

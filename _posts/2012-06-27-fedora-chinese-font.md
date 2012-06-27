@@ -12,8 +12,8 @@ tags : [fedora]
 
 没办法, 查到了Fedora开发者中文组邮件列表, 找到了解决方案:
 
-    在～/.bash_profile文件下加入：
-
-    export PANGO_LANGUAGE=en:zh_CN
-
+在～/.bash_profile文件下加入：
+{% highlight bash %}
+export PANGO_LANGUAGE=en:zh_CN
+{% endhighlight%}
 ok, 生效即可.
