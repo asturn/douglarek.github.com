@@ -36,6 +36,18 @@ GitHub的崛起, 俨然超出了版本控制的范畴, 我们竟然可以用它�
 
 使用Jekyll, 将一切简洁化；追忆往事, 我用Jekyll.
 
+## [Fork in GitHub](https://github.com/droid4world/droid4world.github.com)
+
+本网站架设于GitHub之上，完全开源，协议遵守CC BY-NC-SA 3.0；
+
+获取该站点的一个完整拷贝：
+
+    git clone git://github.com/droid4world/droid4world.github.com.git
+
+请确保你的网络端口9418（git://协议端口）可对外访问，否则请使用https协议：
+
+    git clone https://github.com/droid4world/droid4world.github.com.git
+
 ## Contact
 
 * Email：
