@@ -2,7 +2,7 @@
 layout: post
 title: Maven 代理设置
 category : ci
-tags : [maven,java]
+tags : [maven, java]
 ---
 {% include JB/setup %}
 
