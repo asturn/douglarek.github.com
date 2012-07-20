@@ -15,7 +15,7 @@ tags : [jenkins]
 
 * JDK 1.6 或者以上（jenkins使用java编写）
 
-*注意：*如果第一次使用maven，请确保Maven可以联网下载相关依赖：-），如果使用代理，请参考[这篇文章](http://douglarek.github.com/ci/2012/07/13/maven-proxy/)的做法；另外Maven 版本需要在2.0.9以上，我使用的3，因为2在我的openSuse x86_64上遇到一些莫名的错误。
+*注意：*如果第一次使用maven，请确保Maven可以联网下载相关依赖：-），如果使用代理，请参考[这篇文章](http://douglarek.github.com/ci/2012/07/13/maven-proxy/)的做法；另外Maven版本需要在2.0.9以上，我使用的3，因为2在我的openSuse x86_64上遇到一些莫名的错误。
 
 ## 使用较短插件名称
 
