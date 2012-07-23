@@ -2,7 +2,7 @@
 layout: post
 title: 解决Jenkins插件git-plugin编译错误
 category : ci
-tags : [jenlins]
+tags : [jenkins]
 ---
 {% include JB/setup %}
 
@@ -72,3 +72,9 @@ tags : [jenlins]
     1.7.11.2
 
 然后当然是ok了，-:)，但是我的余怒未消，就这样一个小的插件项目导入eclipse一看，有100多个依赖的jar？我去，写pom.xml的时候，那叫一个简单，了了数行代码，但是编译却需要下载这么多依赖，真是很无语的说，与以前做Buildbot的时候真是截然不同；Maven，但愿我能适应你的工作方式，暂时给你跪了。
+
+**7.23 最新更新**
+
+git-plugin插件的最新提交已经解决这个问题，因此这个问题已经不复存在：-）
+
+    https://github.com/jenkinsci/git-plugin/commit/24254f4223772509f3487e3fbcc29a03346c8c8b
