@@ -8,7 +8,7 @@ category : about
 
 My [Google Plus](https://plus.google.com/u/0/104987494041376032503)
 
-[![Alt text](/images/python.jpg)](https://plus.google.com/u/0/104987494041376032503)
+[![Alt text](/images/python.jpg)](https://plus.google.com/u/0/104987494041376032503)<a href="http://www.opensuse.org/zh-cn/"><img src="http://counter.opensuse.org" border="0" width="224" height="225"/></a>
 
 ---
 
